@@ -1,5 +1,5 @@
 {
-  "name": "BradDenver/paris-seeder",
+  "name": "brad-denver/paris-seeder",
   "type": "library",
   "description": "A simple database seeding class using Faker data and Paris models",
   "keywords": ["idiorm", "orm", "paris", "seed", "faker"],
