@@ -1,0 +1,29 @@
+{
+  "name": "BradDenver/paris-seeder",
+  "type": "library",
+  "description": "A simple database seeding class using Faker data and Paris models",
+  "keywords": ["idiorm", "orm", "paris", "seed", "faker"],
+  "homepage": "https://github.com/BradDenver/paris-seeder",
+  "support": {
+    "issues": "https://github.com/BradDenver/paris-seeder/issues",
+    "source": "https://github.com/BradDenver/paris-seeder"
+  },
+  "authors": [
+    {
+    "name": "Brad Denver",
+    "email": "open@braddenver.com",
+    "homepage": "http://braddenver.com",
+    "role": "Developer"
+  }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.3",
+    "fzaninotto/faker": "1.*",
+    "j4mie/idiorm": "1.*",
+    "j4mie/paris": "1.*"
+  },
+  "autoload": {
+    "classmap": ["Seeder.php"]
+  }
+}
